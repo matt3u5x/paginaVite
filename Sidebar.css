@@ -1,0 +1,64 @@
+.sidebar {
+  background-color: #7c4dff;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 300px;
+  margin: auto;
+}
+
+.sidebar-container {
+  background-color: #7c4dff;
+  width: 35vw;
+  height: 100vh;
+  position: fixed;
+  right: 0;
+  top: 0;
+  display: flex;                  /* Garante que toda a área lateral direita fique roxa */
+  align-items: center;
+  justify-content: center;
+}
+
+h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+button {
+  background-color: #4c2c92;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin: 10px 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #5e35b1;
+}
+
+p {
+  font-size: 18px;
+  margin: 15px 0;
+}
+
+input {
+  width: 50px;
+  padding: 5px;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 5px;
+  border: none;
+}
+
+button:nth-of-type(2) {
+  background-color: #00c853;
+}
+
+button:nth-of-type(3) {
+  background-color: #d50000;
+}

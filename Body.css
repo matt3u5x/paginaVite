@@ -1,0 +1,19 @@
+.body-container {
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    background-color: #f3f3f3;
+    min-height: 100vh;
+    padding: 40px 0;
+    position: relative;
+    border-left: 60px solid transparent;
+  }
+  
+  .content {
+    width: 60%;
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
